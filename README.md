@@ -1,5 +1,8 @@
 # Aliases
-alias ls="/bin/ls $LS_OPTIONS"
+
+```shell
+
+alias ls='/bin/ls $LS_OPTIONS'
 alias ll='ls -l'
 alias lsd='ls -ld'
 alias la='ls -a'
@@ -29,3 +32,4 @@ alias k=kill
 alias d=dirs
 alias h=history
 alias hm='history | less'
+```
