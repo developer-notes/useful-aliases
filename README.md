@@ -1,6 +1,18 @@
 # Aliases
 
 ```shell
+alias gcat='./gradlew clean assemble test'
+alias gca='./gradlew clean assemble'
+
+alias gpull='git pull'
+alias gpush='git push'
+alias gadd='git add .'
+alias gst='git status'
+alias gpair='git pair'
+alias gch='git checkout'
+alias gco='git commit -a -m'
+
+
 
 alias ls='/bin/ls $LS_OPTIONS'
 alias ll='ls -l'
